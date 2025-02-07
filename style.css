@@ -109,7 +109,7 @@ button {
     box-sizing: border-box;
 }
 
-.graph>span{
+.graph>span {
     font-size: 10px;
 }
 
@@ -124,7 +124,8 @@ button {
 }
 
 .progress-bar {
-    width: 0%; /* Começa vazia */
+    width: 0%;
+    /* Começa vazia */
     height: 100%;
     background: linear-gradient(to right, #ff6600, #ff0000);
     text-align: center;
@@ -146,14 +147,15 @@ button {
     /* background-color: pink; */
 }
 
-.sec2Txt>h1{
+.sec2Txt>h1 {
     font-size: 30px;
 }
-.sec2Txt>p{
+
+.sec2Txt>p {
     font-size: 18px;
 }
 
-.sec2Txt>button{
+.sec2Txt>button {
     font-size: 25px;
 }
 
@@ -167,18 +169,18 @@ button {
     justify-content: center;
 
     background: linear-gradient(to right, rgba(0, 51, 102, 0.8), #020224),
-    url('images/background.jpg');
+        url('images/background.jpg');
 
-    text-align: right;
+    /* text-align: right; */
 
 }
 
-.sec3Txt{
+.sec3Txt {
     width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    gap: 30px;  
+    /* align-items: end; */
+    gap: 30px;
 
     padding: 0 100px;
 }
@@ -194,7 +196,7 @@ button {
     /* background: linear-gradient(to right, rgba(0, 51, 102, 0.8), #020224); */
 }
 
-.sec4Txt{
+.sec4Txt {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -203,14 +205,16 @@ button {
 
     padding: 0 100px;
 
-  
+
 }
 
-.sec3Txt h1, .sec4Txt h1{
+.sec3Txt h1,
+.sec4Txt h1 {
     font-size: 30px;
 }
 
-.sec3Txt p, .sec4Txt p{
+.sec3Txt p,
+.sec4Txt p {
     font-size: 17px;
     margin-bottom: 10px;
 
@@ -218,11 +222,11 @@ button {
 }
 
 
-.sec5{
+.sec5 {
     height: auto;
-    
+
     background: linear-gradient(to left, rgba(0, 51, 102, 0.8), #020224),
-    url('images/background.jpg');
+        url('images/background.jpg');
 
     display: flex;
     flex-direction: column;
@@ -235,12 +239,14 @@ button {
     padding: 100px;
     box-sizing: border-box;
 }
-.sec5>h1{
+
+.sec5>h1 {
     font-size: 40px;
     width: 70%;
     text-align: center;
 }
-.grid{
+
+.grid {
     width: auto;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
@@ -248,28 +254,28 @@ button {
     /* background-color: orange; */
 }
 
-.grid>div{
+.grid>div {
     border: 1px solid rgba(255, 255, 255, 0.137);
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.021);
     width: 160px;
     height: 175px;
 
-   padding: 10px;
-   margin: 10px;
-   box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
 
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   align-content: center;
-  
-   text-align: center;
-   gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    text-align: center;
+    gap: 10px;
 }
 
 
-.grid img{
+.grid img {
     width: 70px;
     border-radius: 50%;
 }
@@ -289,7 +295,7 @@ button {
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.603);
 }
 
-.price>p{
+.price>p {
     font-size: 25px;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.603);
 }
@@ -308,7 +314,7 @@ button {
 
 
 
-.sec6{
+.sec6 {
     height: auto;
     padding: 100px 0;
     background: linear-gradient(to top, rgba(0, 51, 102, 0.8), #020224);
@@ -320,16 +326,18 @@ button {
     gap: 100px;
 }
 
-.sec6>.about{
+.sec6>.about {
     width: 70%;
     display: flex;
     align-items: center;
     align-content: center;
 }
-.about img{
+
+.about img {
     width: 50%;
 }
-.aboutTxt{
+
+.aboutTxt {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -337,19 +345,21 @@ button {
 
     text-align: justify;
 }
-.aboutTxt>h1{
-font-size: 30px;
-margin-bottom: 10px;
+
+.aboutTxt>h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
-.aboutTxt>p{
+
+.aboutTxt>p {
     font-size: 18px;
 }
 
-.sec6>.final{
+.sec6>.final {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 800px;
-    align-items: center;
+    max-width: 80%;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -359,23 +369,26 @@ margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.021);
 
     padding: 50px;
-    
+
 }
 
-.final>h2{
+.final h2 {
     text-align: left;
 }
-.final>div{
+
+.final div {
     text-align: left;
 }
-.final h1{
+
+.final h1 {
     font-size: 50px;
 }
-.final>button{
+
+.final button {
     font-size: 20px;
 }
 
-footer{
+footer {
     width: 100%;
     text-align: center;
     font-size: 13px;
@@ -384,4 +397,195 @@ footer{
 
     background-color: black;
 }
-/* fazer os botões com fundo transparente  //trazser pegada moderna */
+
+
+/* responsividade */
+@media (max-width: 1000px) {
+
+    .sec2 {
+        flex-direction: column-reverse;
+        padding: 100px;
+        height: auto;
+    }
+
+    .sec2Txt {
+        width: 70%;
+        text-align: center;
+    }
+
+    .graph {
+        width: 70%;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .aboutTxt,
+    .about img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    button {
+        font-size: 25px;
+    }
+
+    .sec2 {
+        padding: 100px 0;
+    }
+
+    .grid {
+
+        grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    }
+
+    .final>h2 {
+        font-size: 20px;
+    }
+
+    .final>div {
+        text-align: center;
+    }
+
+    .final h1 {
+        font-size: 30px;
+    }
+
+    .final button {
+        font-size: 15px;
+        padding: 0;
+    }
+
+
+
+
+    .price {
+        
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .price>h1 {
+        font-size: 60px;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.603);
+    }
+
+    .price>p {
+        font-size: 25px;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.603);
+    }
+
+    .garantia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        max-width: 70%;
+    }
+    .garantia>p{
+        text-align: center;
+    }
+
+    .garantia>img {
+        width: 150px;
+    }
+
+}
+
+@media (max-width:590px){
+
+
+    .sec3, .sec4 {
+    align-items: center;
+    padding: 0;
+    }
+    
+    
+    .sec3Txt, .sec4Txt{
+        width: 80%;
+        padding: 0;
+    }
+    
+    .sec3Txt h1,
+    .sec4Txt h1 {
+        font-size: 25px;
+    }
+    
+    .sec3Txt p,
+    .sec4Txt p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    
+        text-align: justify;
+    }
+    
+    .sec5>h1 {
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .grid {
+
+        grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
+    }
+    .price>h1 {
+        font-size: 45px;
+    }
+
+    .sec6>.final{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        max-width: 80%;
+        width: 300px;
+        gap: 5px;
+
+        padding: 20px;
+
+       
+    }
+
+    .final>h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .final>div {
+        text-align: center;
+    }
+
+    .final h1 {
+        font-size: 35px;
+    }
+
+    .final button {
+        font-size: 20px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 490px){
+    .price>h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 425px){
+    .price>h1 {
+        font-size: 28px;
+    }
+}
