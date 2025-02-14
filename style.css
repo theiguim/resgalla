@@ -11,6 +11,7 @@
 html{
     width: 100vw;
     overflow-x: hidden !important;
+    scroll-behavior: smooth;
 }
 
 body {
