@@ -15,4 +15,42 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }, 20); // Velocidade de preenchimento
     });
+
+
+
+    const buttons = document.querySelectorAll(".btn");
+
+    function animateOnScroll() {
+        buttons.forEach((button) => {
+            const rect = button.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            if (rect.top < windowHeight - 200) {
+                button.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", animateOnScroll);
+    animateOnScroll(); 
+
+
+    const sections = document.querySelectorAll(".sec3Txt, .sec4Txt");
+
+    function animateSections() {
+        sections.forEach((section) => {
+            const rect = section.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            if (rect.top < windowHeight - 300) {
+                section.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", animateSections);
+    animateSections();
+
+
+
 });
