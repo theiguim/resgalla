@@ -171,14 +171,15 @@ button:hover {
 }
 
 .sec2 {
-    height: 100vh;
-    padding: 100px;
+    /* height: 100vh; */
+    height: auto;
+    /* padding: 100px; */
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 0 100px;
+    padding: 100px;
 
     background-color: #020224;
     /* background: linear-gradient(to bottom, rgba(0, 51, 102, 0.8), #020224);  */
@@ -225,7 +226,7 @@ button:hover {
 
 
 .sec2Txt {
-    width: 30vw;
+    width: 40vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -263,6 +264,14 @@ button:hover {
 
     /* text-align: right; */
 
+    position: relative;
+
+}
+
+.sec3>img{
+    position: absolute;
+    left: 0;
+    height: 100%;
 }
 
 .sec3Txt {
@@ -473,6 +482,7 @@ button:hover {
     max-width: 80%;
     align-content: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
 
     border: 1px solid rgba(255, 255, 255, 0.137);
@@ -514,6 +524,13 @@ footer {
 
 
 /* responsividade */
+
+@media(max-width:1300px){
+.sec3>img{
+    height: 80%;
+    
+}
+}
 @media(max-width: 1200px){
 
     .main{
@@ -543,6 +560,10 @@ footer {
         flex-direction: column;
         gap: 30px;
         
+    }
+
+    .sec3>img{
+        display: none;
     }
     
     .mainTxt>h1 {

@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const rect = button.getBoundingClientRect();
             const windowHeight = window.innerHeight;
 
-            if (rect.top < windowHeight - 200) {
+            if (rect.top < windowHeight - 100) {
                 button.classList.add("show");
             }
         });
