@@ -527,7 +527,7 @@ footer {
 
 @media(max-width:1300px){
 .sec3>img{
-    height: 80%;
+    /* height: 100%; */
     
 }
 }
@@ -562,9 +562,7 @@ footer {
         
     }
 
-    .sec3>img{
-        display: none;
-    }
+  
     
     .mainTxt>h1 {
         font-size: 35px;
@@ -593,6 +591,10 @@ footer {
 
     .graph {
         width: 70%;
+    }
+
+    .sec3>img{
+        display: none;
     }
 
     .about {
